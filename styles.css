@@ -7,7 +7,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #403f4b, #1d0ac5);
+  background: linear-gradient(to right, #403f4b, #5d5b6e);
 }
 
 .grid-container {
@@ -28,6 +28,11 @@ body {
   color: #eee;
 }
 
+.grid-container> button:hover{
+  background-color: #eee;
+  color:#111;
+}
+
 .grid-container > .operator {
   background-color: #272431;
 }
@@ -38,7 +43,7 @@ body {
 
 .grid-container > .output {
   grid-column: 1 / -1;
-  background-color: #222;
+  background: #222;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
